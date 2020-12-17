@@ -5,19 +5,17 @@
 }
 
 body {
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-        "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
-        "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.8;
     letter-spacing: .8px;
-    word-break: break-all;
-    color: #333;
+    word-break: normal;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
-    color: #1ca9e3;
+    color: blue;
 }
 
 img {
@@ -61,13 +59,26 @@ contact-image .hover-action {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .12);
 }
 
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 /*--------------------------------
  charactors
 ---------------------------------*/
 .heading-primary {
     font-family: "Open sans", sans-serif;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1;
     margin-bottom: 15px;
     letter-spacing: .05em;
@@ -76,7 +87,7 @@ contact-image .hover-action {
 .heading-secondary {
     font-family: "Open sans", sans-serif;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1;
     margin-bottom: 15px;
     letter-spacing: .05em;
@@ -106,10 +117,11 @@ contact-image .hover-action {
 
 .section {
     padding: 120px 0;
+    background-color: #b0d9b2;
 }
 
 .section:nth-of-type(odd) {
-    background-color: #f7f7f7;
+    background-color: #91b493;
 }
 
 .inner {
@@ -126,6 +138,7 @@ Header
     align-items: center;
     justify-content: center;
     height: 86vh;
+    background-color: #b0d9b2;
 }
 
 .logo {
@@ -158,7 +171,7 @@ Header
     left: 0;
     z-index: 100;
     width: 100%;
-    background-color: #fff;
+    background-color: #91b493;
     -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
     box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
@@ -173,6 +186,7 @@ Header
 .gnav-item {
     font-family: "Open sans", sans-serif;
     font-size: 16px;
+    font-weight: bold;
     padding: 0 24px;
     letter-spacing: .05em;
 }
@@ -183,7 +197,7 @@ Header
     padding: 20px 0;
     -webkit-transition: .3s;
     transition: .3s;
-    color: #333;
+    color: #fff;
 }
 
 .gnav-link:hover {
@@ -200,7 +214,7 @@ Header
     transition: .3s;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: #333;
+    background-color: #fff;
 }
 
 .gnav-link:hover:after {
@@ -247,6 +261,7 @@ About
 .about-body {
     flex: 1;
     text-align: center;
+    color: aliceblue;
 }
 
 .about-body2 {
@@ -399,7 +414,7 @@ About
 .skill-title {
     font-family: "Open sans", sans-serif;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1;
     margin-bottom: 15px;
     text-align: left;
@@ -480,7 +495,7 @@ About
  Footer
 ---------------------------------*/
 .footer {
-    background-color: #1d1d1d;
+    background-color: #91b493;
 }
 
 .footer .inner {
@@ -490,7 +505,7 @@ About
 .copyright {
     font-size: 10px;
     text-align: center;
-    color: #8c8c8c;
+    color: #fff;
 }
 
 .page-top {
@@ -538,6 +553,7 @@ About
 
     .heading-primary {
         font-size: 22px;
+        font-weight: bold;
     }
 
     /* レイアウト */
