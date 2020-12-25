@@ -226,6 +226,10 @@ Header
 .ios .gnav-link:hover:after {
     display: none;
 }
+.top-image {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #d9d9d9;
+}
 
 
 /*--------------------------------
@@ -519,11 +523,11 @@ button {
 }
 
 .works-text {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .works-url {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .works-image.fadein {
