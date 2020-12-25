@@ -3,7 +3,7 @@ initPhotoSwipeFromDOM(".js-my-gallery");
 
 $(function () {
 
-  //iOS対策
+  //iOS
   //iOSでは疑似要素を含むaタグのリンクは２回タップしないと遷移とページ内スクロールをしないため、
   //ユーザーエージェント判定でiOSの場合はbodyタグにiosを付与し、対象の疑似要素をdisplay: noneする
   var ua = navigator.userAgent;
@@ -11,13 +11,12 @@ $(function () {
     $("body").addClass("ios");
   }
 
-  //Worksのリンクを有効化
-  //スライド（Swiper）内に記載のリンクを有効にするため下記の記述が必要 (;´･ω･)ｳｰﾝ･･･
+  //Activate links in Works
   $(".works-url").on("click", "a", function (e) {
     e.stopPropagation();
   });
 
-  //ページ内スクロール
+  //Scroll
   var $nav = $(".gnav");
   var navHeight = $nav.outerHeight();
 
@@ -35,7 +34,7 @@ $(function () {
     return false;
   });
 
-  //ページトップ
+  //PageTop
   $("#js-page-top").on("click", function () {
     $("body,html").animate(
       {
