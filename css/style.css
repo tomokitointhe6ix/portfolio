@@ -462,11 +462,12 @@ About
 @media only screen and (max-width: 400px) {
     .timeline-article p {
         margin: 0;
+        font-size: 12px;
     }
 
     .timeline-article p span.article-number {
         font-weight: 300;
-        font-size: 15px;
+        font-size: 12px;
     }
 
 }
