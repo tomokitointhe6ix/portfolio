@@ -381,7 +381,7 @@ About
 .timeline-article .content-left:before,
 .timeline-article .content-right:before {
     position: absolute;
-    top: 20px;
+    top: 12px;
     font-size: 23px;
     font-family: "FontAwesome";
     color: #fff;
