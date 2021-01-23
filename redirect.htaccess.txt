@@ -1,1 +1,1 @@
-Redirect permanent /  https://tomokitointhe6ix.github.io/index.html [L,R=301]
+Redirect permanent / https://tomokitointhe6ix.github.io/
