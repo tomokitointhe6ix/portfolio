@@ -114,6 +114,7 @@ contact-image .hover-action {
 ---------------------------------*/
 .wrapper {
     padding-top: 68px;
+    background-color: #b0d9b2;
 }
 
 .section {
@@ -190,6 +191,30 @@ Header
     font-weight: bold;
     padding: 0 24px;
     letter-spacing: .05em;
+/*    margin-left: auto;*/
+}
+
+.gnav-lang:last-child {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    padding: 20px 40px;
+    letter-spacing: .05em;
+    margin-left: auto;
+}
+
+a.btn-border {
+    position: relative;
+    display: inline-block;
+    padding: 1px 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 0.5px solid #fff;
+    color: #fff;
+}
+
+a.btn-border:hover {
+    color: #000;
+    background: #fff;
 }
 
 .gnav-link {
@@ -778,6 +803,14 @@ About
     .gnav-item {
         font-size: 13px;
         padding: 2px 15px;
+    }
+    
+    .gnav-lang:last-child {
+        font-family: "Open sans", sans-serif;
+        font-size: 10px;
+        padding: 2px 15px;
+        letter-spacing: .05em;
+        margin-left: auto;
     }
 
     .gnav-link {
