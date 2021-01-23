@@ -1,0 +1,2 @@
+RewriteEngine on
+ RewriteRule ^https://tomokitointhe6ix.github.io/portfolio/index.html$ https://tomokitointhe6ix.github.io/index.html [L,R=301]
